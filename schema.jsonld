@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SolarEnergyCompany",
+  "name": "BackGen",
+  "url": "https://backgen.co.za",
+  "description": "Professional solar panel cleaning and maintenance across Gauteng. Restore peak performance, extend system lifespan, and maximise your solar ROI.",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Gauteng" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Solar Panel Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Professional Solar Panel Cleaning",
+        "category": "Solar panel cleaning"
+      },
+      {
+        "@type": "Offer",
+        "name": "Efficiency Audit",
+        "category": "Solar efficiency audit"
+      },
+      {
+        "@type": "Offer",
+        "name": "Battery Health Check",
+        "category": "Battery health assessment"
+      },
+      {
+        "@type": "Offer",
+        "name": "SSEG Registration",
+        "category": "SSEG registration assistance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Maintenance Packages",
+        "category": "Solar maintenance packages"
+      }
+    ]
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+27783004622",
+      "contactType": "customer service",
+      "areaServed": "ZA",
+      "availableLanguage": ["en"],
+      "email": "info@backgen.co.za"
+    }
+  ]
+}
+

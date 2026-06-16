@@ -5,23 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BackGen — Professional solar panel cleaning and maintenance across Gauteng. Restore peak efficiency, extend system lifespan, and maximise your solar ROI." />
   <meta name="keywords" content="solar panel cleaning, solar maintenance, SSEG registration, Gauteng solar, Boksburg solar, solar efficiency" />
-  <title>BackGen | Solar Panel Cleaning & Maintenance — Gauteng</title>
-  <link rel="canonical" href="https://backgen.co.za" />
+  <title>BackGen | Services — Gauteng</title>
+  <link rel="canonical" href="https://backgen.co.za/services.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="styles.css" />
   <!-- Open Graph -->
-  <meta property="og:title" content="BackGen | Solar Panel Cleaning & Maintenance" />
-  <meta property="og:description" content="Professional solar maintenance across Gauteng. Restore efficiency, ensure compliance, maximise ROI." />
+  <meta property="og:title" content="BackGen | Services" />
+  <meta property="og:description" content="Professional solar panel cleaning and maintenance across Gauteng." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://backgen.co.za" />
+  <meta property="og:url" content="https://backgen.co.za/services.html" />
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════════
-       NAVIGATION
-  ══════════════════════════════════════════════════ -->
+  <!-- Shared navigation -->
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
     <div class="container">
       <div class="nav-inner">
@@ -29,7 +26,6 @@
         <a href="index.html" class="nav-logo" aria-label="BackGen Home">
           <span class="nav-logo-text">BackGen</span>
         </a>
-
 
         <ul class="nav-links" role="list">
           <li><a href="services.html">Services</a></li>
@@ -39,14 +35,11 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
 
-
         <div class="nav-cta">
           <a href="contact.html" class="btn btn-primary">
             Book a Clean
           </a>
         </div>
-
-
 
         <button class="hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false">
           <span></span><span></span><span></span>
@@ -65,50 +58,69 @@
     <a href="clients.html" class="mobile-link">Clients</a>
     <a href="contact.html" class="mobile-link">Contact</a>
     <a href="contact.html" class="btn btn-primary btn-lg">Book a Clean</a>
-
   </div>
 
-
   <!-- ═══════════════════════════════════════════════
-       HERO
+       SERVICES
   ══════════════════════════════════════════════════ -->
-  <section class="hero" id="home" aria-labelledby="hero-headline">
-    <div class="hero-bg" aria-hidden="true"></div>
+  <section class="services section" id="services" aria-labelledby="services-heading">
     <div class="container">
-      <div class="hero-inner">
 
-        <div class="hero-content">
+      <div class="section-header reveal">
+        <span class="label">What We Do</span>
+      </div>
 
-
-          <h1 id="hero-headline">
-            Restore <span class="teal">Peak</span> Performance
-          </h1>
-
-          <p class="hero-sub">
-            Dirty panels can lose up to 30% efficiency. BackGen's professional cleaning and maintenance service restores your system's output — safely, affordably, and on schedule.
-          </p>
-
-          <div class="hero-actions">
-            <a href="contact.html" class="btn btn-primary btn-lg">Get a Free Quote</a>
-            <a href="services.html" class="btn btn-outline btn-lg">View Services</a>
-
+      <!-- Hero service: Cleaning -->
+      <div class="service-hero-card reveal">
+        <div class="service-hero-content">
+          <div>
+            <h3>Professional Solar Panel Cleaning</h3>
+            <p>Dust, bird droppings, lichen, and smog accumulation silently drain your system's output. Our technicians use deionised water and soft-brush techniques — the same methods approved by leading manufacturers — to restore panels safely without risking your warranty.</p>
           </div>
+
+          <ul class="service-checklist" aria-label="Service features">
+            <li><div class="check-icon" aria-hidden="true">✓</div> Pre- and post-clean efficiency readings</li>
+            <li><div class="check-icon" aria-hidden="true">✓</div> Deionised water — streak-free, spot-free</li>
+            <li><div class="check-icon" aria-hidden="true">✓</div> Safe for all panel brands and coatings</li>
+            <li><div class="check-icon" aria-hidden="true">✓</div> Roof-mounted and ground-mounted systems</li>
+            <li><div class="check-icon" aria-hidden="true">✓</div> Maintenance packages available (quarterly / bi-annual)</li>
+          </ul>
+
+          <a href="contact.html" class="btn btn-primary btn-lg">Book a Cleaning →</a>
         </div>
 
-        <!-- Hero visual (replace src with real image) -->
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-img-wrap">
-            <div class="hero-img-placeholder">
-<img src="./SolarPanelCleaning.webp" alt="Photo of peson cleaning solar panels" type="image/webp" decoding="async" fetchpriority="high" />
-            </div>
-          </div>
+        <div class="service-hero-img" role="img" aria-label="Solar panel cleaning service">
+          <div class="img-icon"><img src="./SolarCleaning.webp" type="image/webp" decoding="async" loading="lazy" alt="photo of solar pannel being cleaned."></div>
         </div>
       </div>
+
+      <!-- Supporting services -->
+      <div class="services-grid">
+
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-card-icon" aria-hidden="true">🔍</div>
+          <h3>Efficiency Audit</h3>
+          <p>A full system inspection that identifies underperforming strings, shading issues, dirty panels, and inverter inefficiencies — with a written report and actionable recommendations.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-card-icon" aria-hidden="true">🔋</div>
+          <h3>Battery Health Check</h3>
+          <p>State-of-charge testing, cell balancing verification, and thermal inspection for lithium and lead-acid battery banks. Catch degradation before it becomes a failure.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-3">
+          <div class="service-card-icon" aria-hidden="true">📋</div>
+          <h3>SSEG Registration</h3>
+          <p>Navigate the municipality's Small Scale Embedded Generation process without the headaches. We handle paperwork, technical submissions, and follow-up on your behalf.</p>
+        </article>
+
+      </div>
+
     </div>
   </section>
-  <!-- ═══════════════════════════════════════════════
-       FOOTER
-  ══════════════════════════════════════════════════ -->
+
+  <!-- Shared footer -->
   <footer class="footer" role="contentinfo">
     <div class="container">
 
@@ -118,8 +130,6 @@
           <a href="index.html" class="nav-logo" aria-label="BackGen Home">
             <span class="nav-logo-text">BackGen</span>
           </a>
-
-
           <p>Professional solar panel cleaning and maintenance across Gauteng. Restoring efficiency, extending lifespan, protecting your investment.</p>
         </div>
 
@@ -131,7 +141,6 @@
             <li><a href="services.html">Battery Health</a></li>
             <li><a href="services.html">SSEG Registration</a></li>
             <li><a href="services.html">Maintenance Packages</a></li>
-
           </ul>
         </div>
 
@@ -142,7 +151,6 @@
             <li><a href="process.html">Our Process</a></li>
             <li><a href="clients.html">Client Stories</a></li>
             <li><a href="contact.html">Contact Us</a></li>
-
           </ul>
         </div>
 
@@ -172,66 +180,30 @@
   </footer>
 
 
-
-  <!-- ═══════════════════════════════════════════════
-       JAVASCRIPT
-  ══════════════════════════════════════════════════ -->
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SolarEnergyCompany",
-    "name": "BackGen",
-    "url": "https://backgen.co.za",
-    "description": "Professional solar panel cleaning and maintenance across Gauteng. Restore peak performance, extend system lifespan, and maximise your solar ROI.",
-    "areaServed": [
-      { "@type": "AdministrativeArea", "name": "Gauteng" }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Solar Panel Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Professional Solar Panel Cleaning",
-          "category": "Solar panel cleaning"
-        },
-        {
-          "@type": "Offer",
-          "name": "Efficiency Audit",
-          "category": "Solar efficiency audit"
-        },
-        {
-          "@type": "Offer",
-          "name": "Battery Health Check",
-          "category": "Battery health assessment"
-        },
-        {
-          "@type": "Offer",
-          "name": "SSEG Registration",
-          "category": "SSEG registration assistance"
-        },
-        {
-          "@type": "Offer",
-          "name": "Maintenance Packages",
-          "category": "Solar maintenance packages"
-        }
-      ]
-    },
-    "contactPoint": [
-      {
+    "@type": "Service",
+    "name": "Solar Panel Services",
+    "provider": {
+      "@type": "SolarEnergyCompany",
+      "name": "BackGen",
+      "url": "https://backgen.co.za",
+      "areaServed": [{ "@type": "AdministrativeArea", "name": "Gauteng" }],
+      "contactPoint": [{
         "@type": "ContactPoint",
 "telephone": "+2783004622"
+        "email": "info@backgen.co.za",
         "contactType": "customer service",
-        "areaServed": "ZA",
         "availableLanguage": ["en"],
-        "email": "info@backgen.co.za"
-      }
-    ]
+        "areaServed": "ZA"
+      }]
+    }
   }
   </script>
 
   <script src="site.js"></script>
-
 </body>
 </html>
+
+

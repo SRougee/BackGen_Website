@@ -1,0 +1,66 @@
+BackGen Website (local) — LLM Search Index
+
+Pages
+- / (index.html)
+- /services.html
+- /why-us.html
+- /process.html
+- /clients.html
+- /contact.html
+
+Business Overview
+BackGen provides professional solar panel cleaning and maintenance across Gauteng, South Africa. The service restores peak performance, improves efficiency, extends system lifespan, and maximises solar ROI.
+
+Service Area
+- Boksburg, Germiston, Alberton & surrounding East Rand areas (Gauteng)
+
+Key Messaging
+- Dirty panels can lose up to ~30% efficiency.
+- Manufacturer-approved, warranty-safe techniques using deionised water and soft-brush methods.
+- Pre- and post-clean efficiency readings; service reports emailed same day.
+
+Services
+1) Professional Solar Panel Cleaning
+   - Deionised water and soft-brush techniques
+   - Pre/post efficiency readings
+   - Safe for all panel brands and coatings
+   - Roof-mounted and ground-mounted systems
+   - Maintenance packages available (quarterly / bi-annual)
+
+2) Efficiency Audit
+   - Inspects underperforming strings, shading, dirty panels, inverter inefficiencies
+   - Provides a written report and actionable recommendations
+
+3) Battery Health Check
+   - State-of-charge testing
+   - Cell balancing verification
+   - Thermal inspection for lithium and lead-acid battery banks
+
+4) SSEG Registration
+   - Helps navigate Small Scale Embedded Generation process
+   - Handles paperwork and follow-up
+
+How It Works (Process)
+1) Request a Quote
+2) Pre-Clean Reading (baseline)
+3) Professional Clean (soft-brush deionised wash, frame wipe-down, junction box visual inspection)
+4) Post-Clean Report (before/after readings and recommendations)
+
+Clients / Testimonials (summary)
+- Clients report measurable output improvements after cleaning and recommend quarterly contracts.
+- SSEG registration support resolved delays and achieved municipal approval.
+- Clients highlight professional communication and written pre/post reporting.
+
+Contact
+Phone / WhatsApp: +27 (0)60 565 0595
+Email: info@backgen.co.za
+Office Hours: Mon–Fri, 08:00–17:00
+
+Contact Form
+- Service Required (Solar Panel Cleaning, Efficiency Audit, Battery Health Check, SSEG Registration, Maintenance Package, Other)
+- Approximate Panel Count (range selections)
+- Message / Additional Details
+
+Notes
+- This file is intended for LLMs to quickly retrieve the website’s key content and routing targets.
+

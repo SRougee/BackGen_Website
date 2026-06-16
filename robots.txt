@@ -3,3 +3,6 @@ Allow: /
 
 Sitemap: https://backgen.co.za/sitemap.xml
 
+# Added for crawlability of split pages
+Sitemap: https://backgen.co.za/sitemap-pages.xml
+
